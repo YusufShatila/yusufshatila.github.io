@@ -1,0 +1,392 @@
+h1{
+    font-family: 'Dancing Script', cursive;
+    color: #fff;
+    font-size: 10em;
+    font-weight: 700;
+    margin: 0;
+    position: absolute;/*position: absolute; is used to take the element out of the normal flow and bound it to the neartest element to itk*/
+    top: 50%;/*top and left position it within its containing block*/
+    left: 50%;
+    transform: translate(-50%, -50%);/*To center it I used this video https://www.youtube.com/watch?v=TjsXj9j_JHk and this video https://www.youtube.com/watch?v=Ne-uF4oY6pQ*/
+}
+h2{
+    color: #fff;
+    font-size: 32px;
+    font-weight: 10;
+    position: absolute;
+    bottom: 28%;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    margin-left: 650px;
+    font-family: 'Raleway', sans-serif;
+
+  
+}
+.wrapper{
+    background-image: url("images/bayrock.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+}
+.btn-custom{
+    text-transform: uppercase;
+    color: #fff;
+    background-color: #72a411;
+    border: 0;
+    padding: 14px 20px;
+    margin: 0;
+    font-size: 16px;
+    font-weight: 500;
+    letter-spacing: 0.5px;
+    border-radius: 0;
+    margin-top: 20px;
+    text-decoration: none;
+    transition: all 0.5s;
+    position: absolute;
+    margin-left: 680px;
+    bottom: 15%;
+}
+body{
+
+    background-color: white;
+
+    /* https://www.youtube.com/watch?v=HEpqi6im8CY I uses this link to help me center the image */
+}
+/*https://www.youtube.com/watch?v=e6SMonsnM9Q I used this for the navigation bar but without the JQuery he used*/
+html,body{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+
+header{
+    width: 100%;
+    height: 100vh;
+    
+}
+
+.logo{
+    position: fixed;
+    float: left;
+    margin-left: 220px;
+    margin-top: 25px;
+    font-family: 'Dancing Script', cursive;
+    font-size: 36px;
+    color: #8eb640;
+    font-weight: 700;
+    letter-spacing: 1px;
+}
+.logo a{
+    color: #8eb640;
+    text-decoration: none;
+}
+nav{
+    position: fixed;
+    width: 100%;
+    height: 80px;
+    background: #262626;
+    
+}
+nav ul{
+    list-style: none;
+    background: rgba(0, 0, 0, 0)
+    overflow:hidden;
+    color:white;
+    padding: 0;
+    margin-left:740px;
+    text-align:center;
+    transition:1s;
+}
+nav.black ul{
+    background: #000;
+}
+nav ul li{
+    display: inline-block;
+    padding: 10px;
+}
+nav ul li a{
+    text-transform: uppercase;
+    color: #ddd;
+    font-weight: 500;
+    font-size: 15px;
+    padding: 5px 0;
+    letter-spacing: 0.5px;
+    margin: 10px 15px 0 15px;
+    text-decoration: none;
+}
+nav ul li a:hover{
+    color: #8eb640;
+}
+.content {
+    background-color: white;
+    padding-top: 130px;
+    padding-bottom: 130px;
+    padding-left: 200px;
+    margin-bottom: -20px;
+}
+.about-text {
+    position: relative;
+    padding-left: 800px;
+    margin-top: -424px;
+  }
+  
+  .about-text h2 {
+    font-weight: 500;
+    font-size: 34px;
+    color: black;
+    text-transform: uppercase;
+    margin: 0;
+  }
+  .about-hr {
+    height: 1.5px;
+    background-color: #72a411;
+    width: 70px;
+    margin-left: 800px;
+    margin-top:25px;
+
+  }
+.about-p{
+    margin-left: 800px;
+    font-family: 'Raleway', sans-serif;
+    text-rendering: optimizeLegibility !important;
+    -webkit-font-smoothing: antialiased !important;
+    color: #777;
+    font-weight: 300
+    
+}
+.about-p p{
+    line-height: 1.42857143;
+}
+.wrapper logo{
+    color: #72a411;
+}
+.taste{
+    background-color: white;
+  
+    position: relative;
+    
+    color: white;
+}
+.taste h1{
+    margin-bottom: 40px;
+    letter-spacing: normal;
+    font-weight: 500;
+    font-size: 44px;
+    color: white;
+    text-transform: uppercase;
+    position: absolute;
+    font-family: inherit;
+    padding-left: 0px;
+    padding-top: 0px;
+    padding-bottom: 120px;
+    top: 50%;
+    line-height: 1.1;
+    
+    left: 50%;
+    transform: translate(-50%, -50%);
+     
+}
+.taste h2{
+    text-align: center;
+    margin-left: 440px;
+    position:absolute;
+    top: 70%;
+    
+}
+.taste img{
+    padding-bottom: 20px;
+}
+
+.taste  hr{
+    height: 1.5px;
+    background-color: #72a411;
+    width: 70px;
+    margin-left: 185px;
+    margin-top:25px;
+    
+}
+* {
+    box-sizing: border-box;
+  }
+  
+  .column {
+    float: left;
+    margin-left: 70px;
+    margin-right: 4px;
+    width: 27%;
+    padding-bottom: 35px;
+  
+  }
+  
+  /* Clearfix (clear floats) */
+  .row::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+  .Menu h3{
+    color:#72a411;
+    padding-left: 550px;
+    font-size: 50px;
+    padding-bottom: 10px;
+  }
+  .reservation{
+    padding-top: 90px;
+    padding-bottom: 90px;
+    background-color: #72a411;
+    margin: top 40px;
+  }
+  .reservation p{
+    font-weight: bold;
+    font-family: 'Open Sans', sans-serif;
+    color: #fff;
+    font-size: 40px;
+    padding-left: 220px;
+  }
+  .contact h4{
+    margin: 0 0 20px 0;
+    font-weight: 500;
+    font-size: 36px;
+    color: #333;
+    text-transform: uppercase;
+    padding-left: 660px;
+  }
+  .contact  hr{
+    height: 3px;
+    background-color: #72a411;
+    width: 80px;
+    margin-left: 185px;
+    margin-top:25px;
+    margin-left: 730px;
+  }
+  .contact p{
+    color: #777;
+    font-size: 35px;
+    padding-left: 600px;
+    padding-top: 40px;
+  }
+  body {
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  * {
+    box-sizing: border-box;
+  }
+  
+  input[type=text], select, textarea {
+    width: 100%;
+    padding: 20px;
+    padding-left: 20px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+  }
+
+  
+  input[type=submit] {
+
+    
+    color: #fff;
+    background-color: #628d0f;
+    border-radius: 4px;
+    cursor: pointer;
+    border: 0;
+    padding: 14px 20px;
+    margin-left: 650px;
+    font-size: 16px;
+    font-weight: 500;
+    letter-spacing: 0.5px;
+    border-radius: 0;
+    margin-top: 20px;
+    margin-bottom: 100px;
+    transition: all 0.5s;
+  }
+  
+  input[type=submit]:hover {
+    background-color: #45a049;
+  }
+  
+  .contact {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+  }
+  
+  .namemail {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 10px;
+  }
+
+  /* https://developer.mozilla.org/en-US/docs/Web/CSS/grid-template-columns I used this website to help me in the grid property */
+
+  .address {
+    background-color: #262626;
+    padding: 140px;
+    text-align: center;
+  }
+  .links{
+    background-color: #72a411;
+    padding: 80px;
+    text-align: center;
+    position: relative;
+  }
+  .links a{
+     color: white;
+    font-size: 30px;
+    text-decoration: none;
+    margin-left: 70px;
+    display: inline-block;
+  }
+  .links p{
+    font-size: 15px;
+    color: rgba(255,255,255,0.8);
+    text-align: center;
+    padding-left: 590px;
+    position: absolute;
+    bottom: 10px;
+
+  }
+  
+.section{
+    width: 33.33%;
+    float: left;
+    text-align: center;
+    padding: 0px 10px;
+    box-sizing: border-box;
+}
+.section h3{
+    color: #72a411;
+    padding-top: 0px;
+    margin-top: -70px;
+    font-family: "Arial", sans-serif;
+    font-weight: 300;
+}
+.section p{
+  font-size: 20px;
+  color: rgba(255,255,255,0.8);
+  font-family: 'Raleway', sans-serif;
+  line-height: 1.42857143;
+  text-align: center;
+  margin-top: 51px;
+  padding: 5px;
+ 
+}
+.ccn{
+  background-color: white;
+}
+.ccn .col-12 {
+  width: 50%;
+  float: left;
+}
+.ccn .menu-item-price {
+  display: block;
+  text-align: right;
+  margin-left: 5px;
+}
+.menu-item hr {
+  border: none;
+  border-top: 1px dotted #ccc;
+}
